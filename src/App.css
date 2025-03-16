@@ -1,0 +1,63 @@
+* {
+
+  box-sizing: border-box;
+
+}
+.content-container {
+  display: flex;
+  margin: 150px auto;
+  width: 80%;
+  min-height: 500px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.white-backdrop {
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 20px;
+
+}
+
+.user-input {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column; 
+  gap: 16px; 
+  padding: 16px;
+}
+
+.task-container {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Spread icons and text evenly */
+  gap: 16px; /* Space between individual elements */
+  padding: 8px;
+  border: 1px solid #ccc; /* Optional: Add a border for clarity */
+  border-radius: 8px; /* Optional: Rounded corners */
+  background-color: #f9f9f9; /* Optional: Background color */
+}
+
+.task-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.delete-wrapper {
+  cursor: pointer;
+}
+.task {
+  flex-grow: 1; /* Make the text take up available space */
+  text-align: left; /* Align text to the left */
+}
